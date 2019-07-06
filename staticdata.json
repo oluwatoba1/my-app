@@ -1,0 +1,52 @@
+{
+    "cells": [
+        {
+            "title": "Intro to React",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Basic Styling in CSS",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Adaptive Layout with CSS Grid",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Interactions and Animations",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "SVG Animation",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Components and Props",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "States and Events",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Styled Components",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Static Data with JSON",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "GraphicQL with Contentful",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Publish to Netlify",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        },
+        {
+            "title": "Payment with Stripe Checkout",
+            "image": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png"
+        }
+    ]
+}
