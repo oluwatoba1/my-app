@@ -8,8 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import "./layout.css"
+import Helmet from 'react-helmet';
+import "./layout.css";
 import Header from './header'
+import Footer from './Footer'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,14 +20,34 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            description, 
+            keywords
           }
         }
+        allContentfulLink{
+        edges{
+          node{
+            title
+            url
+          }
+        }
+      }
       }
     `}
     render={data => (
       <>
+      <Helmet 
+        title={data.site.siteMetadata.title}
+        meta={[
+          {name: 'description', content: data.site.siteMetadata.description},
+          {name: 'keywords', content: data.site.siteMetadata.keywords}
+          ]}
+      />
       <Header />
-          {children}  
+      {children}
+      <Footer data={data}>
+        Backgrounds made in Cinema 4D, iOS app in Swift, site made in React. <a href="mailto:tohbyy@gmail.com">Email us</a> to ask us anything. © 2019
+      </Footer>
       </>
     )}
   />
