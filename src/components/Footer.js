@@ -6,10 +6,6 @@ const FooterGroup = styled.div`
     padding: 60px 0;
     display: grid;
     grid-gap: 20px;
-
-    @media(max-width: 640px) {
-        padding: 40px 0;
-    }
 `
 
 const Text = styled.p`
@@ -18,11 +14,6 @@ const Text = styled.p`
     color: #486791;
     max-width: 500px;
     margin: 0 auto;
-
-    @media(max-width: 640px) {
-        font-size: 18px;
-    }
-
 `
 
 const Button = styled.button`
@@ -60,10 +51,6 @@ const LinkGroup = styled.div`
         color: #000;
     }
 
-    @media(max-width: 640px) {
-        grid-gap: 10px;
-    }
-
 `
 
 const Copyright =  styled.div`
@@ -71,11 +58,6 @@ const Copyright =  styled.div`
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
-
-    @media(max-width: 640px) {
-        font-size: 14px;
-    }
-
 `
 
 const Footer = ({data, children}) => (
