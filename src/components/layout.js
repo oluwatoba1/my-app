@@ -44,13 +44,11 @@ const Layout = ({ children }) => (
           {name: 'keywords', content: data.site.siteMetadata.keywords}
           ]}
       />
-      <div>
         <Header />
         {children}
         <Footer data={data}>
           Backgrounds made in Cinema 4D, iOS app in Swift, site made in React. <a href="mailto:tohbyy@gmail.com">Email us</a> to ask us anything. © 2019
         </Footer>
-      </div>
       </>
     )}
   />
