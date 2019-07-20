@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const FooterGroup = styled.div`
     background: #F1F3F5;
-    width: 100%;
     padding: 60px 0;
     display: grid;
     grid-gap: 20px;
@@ -19,6 +18,7 @@ const Text = styled.p`
     @media (max-width: 640px) {
         font-size: 16px;
         font-weight: 500;
+        max-width: 350px;
     }
 
 `
@@ -66,8 +66,11 @@ const LinkGroup = styled.div`
     }
 
     @media (max-width: 640px) {
+
+        width: 350px;
+
         a {
-            font-size: 1
+            font-size: 12px;
         }
     }
 
