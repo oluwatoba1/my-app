@@ -18,7 +18,6 @@ a {
 }
 
 .HeroGroup {
-  position: relative;
   background: url('../images/wallpaper3.jpg');
   background-size: cover;
   background-position: center;
