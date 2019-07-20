@@ -15,6 +15,12 @@ const Text = styled.p`
     max-width: 500px;
     color: #486791;
     margin: 0 auto;
+
+    @media (max-width: 640px) {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
 `
 
 const Button = styled.button`
@@ -35,6 +41,13 @@ const Button = styled.button`
         transform: translateY(-3px);
     }
 
+    @media (max-width: 640px) {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 40px;
+        border-radius: 20px;
+    }
+
 `
 
 const LinkGroup = styled.div`
@@ -52,6 +65,12 @@ const LinkGroup = styled.div`
         color: #000;
     }
 
+    @media (max-width: 640px) {
+        a {
+            font-size: 1
+        }
+    }
+
 `
 
 const Copyright =  styled.div`
@@ -59,6 +78,12 @@ const Copyright =  styled.div`
     max-width: 500px;
     margin: 0 auto;
     padding: 0 20px;
+
+    @media (max-width: 640px) {
+        padding: 0 12px;
+        font-size: 10px;
+    }
+
 `
 
 const Footer = ({data, children}) => (
