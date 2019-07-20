@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const FooterGroup = styled.div`
     background: #F1F3F5;
-    padding: 60px 0;
+    padding: 60px 10px;
     display: grid;
     grid-gap: 20px;
 `
