@@ -6,6 +6,7 @@ const FooterGroup = styled.div`
     padding: 60px 0;
     display: grid;
     grid-gap: 20px;
+    width: 100%;
 `
 
 const Text = styled.p`
@@ -16,9 +17,9 @@ const Text = styled.p`
     margin: 0 auto;
 
     @media (max-width: 640px) {
+        max-width: 350px;
         font-size: 16px;
         font-weight: 500;
-        max-width: 350px;
     }
 
 `
