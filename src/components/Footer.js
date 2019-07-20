@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 const FooterGroup = styled.div`
     background: #F1F3F5;
-    padding: 60px 10px;
+    width: 100%;
+    padding: 60px 0;
     display: grid;
     grid-gap: 20px;
 `
@@ -11,8 +12,8 @@ const FooterGroup = styled.div`
 const Text = styled.p`
     font-size: 24px;
     font-weight: 600;
+    max-width: 80%;
     color: #486791;
-    max-width: 500px;
     margin: 0 auto;
 `
 
@@ -55,7 +56,7 @@ const LinkGroup = styled.div`
 
 const Copyright =  styled.div`
     color: #486791;
-    max-width: 500px;
+    width: 80%;
     margin: 0 auto;
     padding: 0 20px;
 `
